@@ -18,6 +18,17 @@
   - 3.根据装机测试的结果，修改相关紧急的bug
   - 4.调研Android7.1 关于多窗口实现的代码，分析其实现的原理，以及相关的API调用
 
+# 罗浩
+
+### 本周总结
+  - 1.分析了Multiwindow-7.1的实现方法，具体分析内容主要包括FREEFORM_WORKSPACE的赋予，FREEFORM_WORKSPACE的关联，窗口化Task的启动流程和TaskBar窗口化启动应用的具体方法。目前仍未解明的是TaskBar如何通过InvisibleActivityFreeform来开启供给ActivityContainer。
+  - 2.分析了自动测试出现的问题，大多时候在等待运行结果。基本完成了对发现的问题的修复，学习了其中testcase的编译方式和uiautomator的使用，成功修复了一个测试用例的bug，下周希望能够进一步同敖权交流。
+  
+### 下周任务
+  - 1.继续分析Multiwindow-7.1的实现方式和相关API，首先是重点分析ActivityContainer的开启方式以及更进一步分析窗口化启动方式，争取从Launcher3中以窗口化启动应用。
+  - 2.交流自动测试的相关修改策略，以保证自动测试对整体开发更有效果。
+
+
 # 2017年6月26日 - - 2017年6月30日
 
 # 刘晓旭
